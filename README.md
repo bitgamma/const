@@ -37,12 +37,10 @@ Duplicated values are allowed, but in that case the `by_value` function will not
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Add `const` to your list of dependencies in `mix.exs`:
 
-  Add `const` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:const, "~> 0.1.0"}]
-    end
-    ```
+```elixir
+def deps do
+  [{:const, "~> 0.1.0"}]
+end
+```
